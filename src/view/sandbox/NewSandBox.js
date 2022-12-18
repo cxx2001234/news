@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-
+import {NavLink} from 'react-router-dom'
 export default function NewSandBox() {
   const [name,setName]=useState("none")
   const show=()=>{
@@ -12,8 +12,7 @@ export default function NewSandBox() {
   }
   return (
     <div>
-      <span onClick={show}>{name==="none"?"+":"-"}</span>
-      <div style={{height:'500px',width:"500px",display:name,backgroundColor:"pink"}}>fghjkl</div>
+     <NavLink to="/films/nowPlaying">电影</NavLink>
     </div>
   )
 }

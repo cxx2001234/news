@@ -1,0 +1,4 @@
+.loop{width:100%;height: 200px;background-color: rgb(249, 153, 169);margin:5px;text-align: center;line-height: 200px;}
+.a{color:blue}
+.title{display: flex;text-align: center;}
+.title span{flex:0 0 50%;padding:5px 0;}

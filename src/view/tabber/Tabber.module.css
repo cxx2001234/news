@@ -1,0 +1,4 @@
+.tabberUl{display: flex;position: absolute;bottom:0px;width: 100%;}
+.tabberLi{flex: 0 0 25%;text-align: center;padding:20px 0px;font-size: large;font-weight: 500;}
+.a{color:blue}
+a{text-decoration:  none;}
